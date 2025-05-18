@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="hr"></div>
+        <div class="blockHr"></div>
     </div>
 </template>
 
@@ -8,7 +8,7 @@
 </script>
 
 <style scoped>
-.hr {
+.blockHr {
     border: 1px solid var(--subColor);
     height: 2px;
     background-color: var(--subColor);
