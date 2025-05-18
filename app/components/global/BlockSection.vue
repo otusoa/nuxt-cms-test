@@ -9,10 +9,6 @@
 
 <style scoped>
 .BlockSection {
-	padding: 30px 20px;
-
-	&:nth-child(odd) {
-		background-color: var(--grayColor1000);
-	}
+	margin-bottom: 20px;
 }
 </style>

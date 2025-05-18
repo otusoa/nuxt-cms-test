@@ -26,6 +26,7 @@ const { color, isWarning } = defineProps({
   margin-bottom: 1rem;
   padding: 12px;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .alert-orange {
