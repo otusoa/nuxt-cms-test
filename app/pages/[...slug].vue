@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import Alert from '~/components/content/Alert.vue'
-import Hr from '~/components/content/Hr.vue'
-import Section from '~/components/content/Section.vue'
-
 const route = useRoute()
 
 const { data: page } = await useAsyncData('page-' + route.path, () => {
@@ -18,6 +14,5 @@ if (!page.value) {
   <ContentRenderer
     v-if="page"
     :value="page"
-    :components="{ Alert, Section , Hr }"
   />
 </template>
