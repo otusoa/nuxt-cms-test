@@ -1,7 +1,5 @@
 # Root page
 
-::block-alert
-Write Something
-
-/
+::alert{isWarning color="blue"}
+情報
 ::
