@@ -12,4 +12,7 @@ export default defineNuxtConfig({
     "~/assets/css/main.css",
     "@fortawesome/fontawesome-svg-core/styles.css",
   ],
+  components: [
+    { path: '~/components/content', pathPrefix: false },
+  ],
 })
