@@ -14,6 +14,6 @@ You can find an example of querying contents and rendering them in a [catch-all 
 
 Write Something
 
-::block-alert{isWarning color="blue"}
+::block-alert{is-warning color="blue"}
 test
 ::
