@@ -1,8 +1,16 @@
 <template>
-    <div class="hr"></div>
+    <div v-if="displayToggle">
+        <div class="hr"></div>
+    </div>
 </template>
 
 <script setup lang="ts">
+const { displayToggle } = defineProps({
+    displayToggle: {
+        type: Boolean,
+        default: false
+    }
+})
 </script>
 
 <style scoped>
@@ -11,5 +19,4 @@
     height: 2px;
     background-color: var(--subColor);
 }
-
 </style>
