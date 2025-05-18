@@ -9,7 +9,7 @@
 const { color, isWarning } = defineProps({
   color: {
     type: String,
-    default: 'orange'
+    default: 'blue'
   },
   isWarning: {
     type: Boolean,
