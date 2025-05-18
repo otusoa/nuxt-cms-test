@@ -4,14 +4,14 @@
             <span>©2025 PitaMai Technology</span>
         </div>
         <div class="footerContent wMax1250 standardFontSize">
-            <ul class="footerNav">
+            <!-- <ul class="footerNav">
                 <li>
                     <NuxtLink to="/privacyPolicy">プライバシーポリシー</NuxtLink>
                 </li>
                 <li>
                     <NuxtLink to="/disclaimer">免責事項</NuxtLink>
                 </li>
-            </ul>
+            </ul> -->
         </div>
         <div class="footerContent wMax1250">
             <!-- <ul class="footerNav">
