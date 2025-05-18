@@ -13,3 +13,9 @@ Create new pages or modify the existing ones in `content/` directory.
 You can find an example of querying contents and rendering them in a [catch-all page](https://github.com/nuxt/starter/blob/content/app/pages/%5B...slug%5D.vue)
 
 Write Something
+
+::alert{color="orange"}
+## aaa
+
+testaaa
+::
