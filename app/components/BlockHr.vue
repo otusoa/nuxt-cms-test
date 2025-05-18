@@ -1,6 +1,19 @@
 <template>
-    <div class="hr"></div>
+    <div v-show="isToggle">
+        <div class="hr"></div>
+    </div>
 </template>
+
+<script setup lang="ts">
+
+const { isToggle } = defineProps({
+    isToggle: {
+        type: Boolean,
+        default: true
+    }
+})
+
+</script>
 
 <style scoped>
 .hr {
@@ -8,5 +21,4 @@
     height: 2px;
     background-color: var(--subColor);
 }
-
 </style>
