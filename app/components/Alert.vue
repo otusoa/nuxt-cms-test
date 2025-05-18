@@ -1,32 +1,51 @@
 <template>
-  <div class="alert" :style="{ 'border-color': color }">
+  <div :class="`alert alert-${color}`">
+    <div v-if="isWarning" class="warningIcon">⚠️</div>
     <slot></slot>
   </div>
 </template>
 
 <script setup lang="ts">
-const { color } = defineProps({
+const { color, isWarning } = defineProps({
   color: {
     type: String,
     default: 'orange'
+  },
+  isWarning: {
+    type: Boolean,
+    default: false
   }
 })
 </script>
 
 <style scoped>
 .alert {
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
-  padding: 1rem;
-  border: 2px solid;
-  border-radius: 0.5rem;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.alert:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+.alert-orange {
+  background-color: #fff3e0;
+  border-left: 4px solid #ff9800;
+  color: #e65100;
+}
+
+.alert-red {
+  background-color: #ffebee;
+  border-left: 4px solid #f44336;
+  color: #b71c1c;
+}
+
+.alert-blue {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+  color: #0d47a1;
+}
+
+.warningIcon {
+  margin-right: 8px;
 }
 </style>
