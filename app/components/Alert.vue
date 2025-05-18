@@ -12,8 +12,8 @@ const { color, isWarning } = defineProps({
     default: 'blue'
   },
   isWarning: {
-    type: Boolean,
-    default: false
+    type: String,
+    default: 'false'
   }
 })
 </script>
