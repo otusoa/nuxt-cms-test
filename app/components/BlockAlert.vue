@@ -1,6 +1,6 @@
 <template>
   <div :class="`alert alert-${color}`">
-    <div v-if="isWarning" class="warningIcon">⚠️</div>
+    <div v-if="isWarning" class="warningIcon"><font-awesome-icon icon="fa-solid fa-triangle-exclamation" /></div>
     <slot></slot>
   </div>
 </template>
