@@ -10,4 +10,13 @@ export default defineNuxtConfig({
     "~/assets/css/main.css",
     "@fortawesome/fontawesome-svg-core/styles.css",
   ],
+  content: {
+    database: {
+      type: 'd1',
+      bindingName: 'DB'
+    }
+  },
+  hub: {
+    database: true
+  }
 })
