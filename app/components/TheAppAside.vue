@@ -138,7 +138,7 @@ const toggleThreadMenu = () => {
                         </NuxtLink>
                     </div>
                 </div>
-                <TheHr class="mB20 mT20" />
+                <BlockHr class="mB20 mT20" />
                 <div class="navList">
                     <div class="navItem">
                         <NuxtLink to="https://pitamai.com" class="navLink inheritLink">

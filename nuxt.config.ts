@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2024-04-03',
   css: [
-    "~/assets/css/main.css", // パスを修正
+    "~/assets/css/main.css",
+    "@fortawesome/fontawesome-svg-core/styles.css",
   ],
 })
