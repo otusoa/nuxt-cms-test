@@ -30,7 +30,7 @@ const toggleThreadMenu = () => {
                 <h2 class="standardFontSize mB10">
                     ピタマイ・ブログ
                 </h2>
-                <div class="navList">
+                <!-- <div class="navList">
                     <div class="navItem">
                         <NuxtLink to="/" class="navLink inheritLink">
                             <span class="navIcon" style="color: var(--subColor)"><font-awesome-icon
@@ -83,7 +83,7 @@ const toggleThreadMenu = () => {
                             </div>
                         </transition>
                     </div>
-                </div>
+                </div> -->
                 <!-- ここにネストされたメニューを一個だけ -->
                 <!-- <div class="nestNavItem">
                     <div class="navDropdown" :class="{ 'navDropdownOpen': isThreadMenuOpen }">
