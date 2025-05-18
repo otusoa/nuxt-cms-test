@@ -1,6 +1,6 @@
 <template>
-    <div class="hr">
-        <div class="hr-inner"></div>
+    <div>
+        <div class="hr"></div>
     </div>
 </template>
 
@@ -8,7 +8,7 @@
 </script>
 
 <style scoped>
-.hr-inner {
+.hr {
     border: 1px solid var(--subColor);
     height: 2px;
     background-color: var(--subColor);
