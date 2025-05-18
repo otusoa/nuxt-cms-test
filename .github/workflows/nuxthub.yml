@@ -37,4 +37,4 @@ jobs:
         uses: nuxt-hub/action@v1
         id: deploy
         with:
-          project-key: nuxt-cms-test-5op2
+          project-key: nuxt-cms-test-58vy
