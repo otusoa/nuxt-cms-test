@@ -10,6 +10,10 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
     "@nuxt/content": "^3.5.1",
     "nuxt": "^3.17.1"
   }

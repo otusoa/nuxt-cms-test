@@ -20,11 +20,12 @@ const { color, isWarning } = defineProps({
 
 <style scoped>
 .alert {
-  padding: 12px;
+  align-items: flex-start;
   border-radius: 4px;
-  margin-bottom: 1rem;
   display: flex;
-  align-items: center;
+  margin-bottom: 1rem;
+  padding: 12px;
+  flex-direction: column;
 }
 
 .alert-orange {
