@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', "@nuxthub/core"],
+  modules: ['@nuxtjs/sitemap', 'nuxt-seo-utils','nuxt-site-config', '@nuxt/content', "@nuxthub/core" ,'@nuxtjs/robots'],
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
@@ -37,5 +37,12 @@ export default defineNuxtConfig({
   },
   hub: {
     database: true
-  }
+  },
+  sitemap: {
+    xsl: false,
+  },
+  site: {
+    url: "https://org.pitahex.com",
+    name: "ピタマイ(PitaMai)・ブログ",
+  },
 })
