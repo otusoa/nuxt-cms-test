@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/sitemap', 'nuxt-seo-utils','nuxt-site-config', '@nuxt/content', "@nuxthub/core" ,'@nuxtjs/robots'],
+  modules: ['@nuxtjs/sitemap', "nuxt-gtag", 'nuxt-seo-utils', 'nuxt-site-config', '@nuxt/content', "@nuxthub/core", '@nuxtjs/robots'],
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
@@ -12,6 +12,9 @@ export default defineNuxtConfig({
   ],
   nitro: {
     preset: 'cloudflare_pages',
+  },
+  gtag: {
+    id: "G-3ZKKED8546",
   },
   content: {
     database: {
