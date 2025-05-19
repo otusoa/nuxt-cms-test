@@ -6,7 +6,7 @@
         <div class="footerContent wMax1250 standardFontSize">
             <ul class="footerNav">
                 <li>
-                    <NuxtLink to="/privacyPolicy">プライバシーポリシー</NuxtLink>
+                    <NuxtLink to="/privacy-policy">プライバシーポリシー</NuxtLink>
                 </li>
                 <li>
                     <NuxtLink to="/disclaimer">免責事項</NuxtLink>
