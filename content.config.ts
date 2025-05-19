@@ -11,6 +11,7 @@ export default defineContentConfig({
           alt: z.string()
         }),
         date: z.date(),
+        tag: z.array(z.string())
       })
     })
   ,
