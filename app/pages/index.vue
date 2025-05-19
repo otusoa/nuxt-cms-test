@@ -11,6 +11,7 @@ const { isLoading } = useNProgressLoading()
 
 <template>
     <main>
+        <h1>新着投稿</h1>
         <ul v-if="data" class="articleList">
             <li v-for="article in data" :key="article.path" class="articleItem">
                 <NuxtLink :to="article.path" class="articleCardLink">

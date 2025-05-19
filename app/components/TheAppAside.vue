@@ -39,6 +39,15 @@ const toggleThreadMenu = () => {
                         </NuxtLink>
                     </div>
                 </div>
+                <div class="navList">
+                    <div class="navItem">
+                        <NuxtLink to="/search" class="navLink inheritLink">
+                            <span class="navIcon" style="color: var(--subColor)"><font-awesome-icon
+                                    icon="fa-solid fa-magnifying-glass" /> </span>
+                            <span>検索</span>
+                        </NuxtLink>
+                    </div>
+                </div>
                 <div class="nestNavItem">
                     <div class="navDropdown" :class="{ 'navDropdownOpen': isThreadMenuOpen }">
                         <div class="navDropdownHeader" @click="toggleThreadMenu">

@@ -7,6 +7,9 @@ const showBreadcrumb = computed(() => {
         !route.params.id
 })
 
+import { useNProgressLoading } from '~/composables/NprogressBar' // 追加
+const { isLoading } = useNProgressLoading() // 追加
+
 </script>
 
 <template>
