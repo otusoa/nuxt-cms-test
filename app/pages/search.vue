@@ -11,6 +11,10 @@ const fuse = new Fuse(data.value ?? [], {
 const result = computed(() => fuse.search(toValue(query)).slice(0, 10))
 
 const { isLoading } = useNProgressLoading()
+
+useSeoMeta({
+    ogImage: "https://org.pitahex.com/ogp.png",
+})
 </script>
 
 <template>

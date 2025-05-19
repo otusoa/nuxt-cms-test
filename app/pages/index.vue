@@ -7,6 +7,9 @@ const { data } = await useAsyncData("blog", () =>
 
 const { isLoading } = useNProgressLoading()
 
+useSeoMeta({
+    ogImage: "https://org.pitahex.com/ogp.png",
+})
 </script>
 
 <template>
