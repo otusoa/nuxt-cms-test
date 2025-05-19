@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { NuxtLink } from '#components'
+import { parseDate } from "~/utils/parseDate";
 
 const route = useRoute()
 
@@ -64,6 +64,9 @@ useSeoMeta({
                     </ul>
                 </li>
             </ul>
+        </div>
+        <div v-if="page?.date">
+            <p>公開日：{{ parseDate(page.date?.toString()) }}</p>
         </div>
 
         <!-- コンテンツの表示 -->
