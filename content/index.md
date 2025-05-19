@@ -1,5 +1,10 @@
+---
+tag:
+  - ""
+---
+
 # Root page
 
-::alert{isWarning color="blue"}
-情報
+::block-alert{is-warning color="orange"}
+こんににちは
 ::

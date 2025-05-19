@@ -1,3 +1,0 @@
-# Pitamai page
-
-/
