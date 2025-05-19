@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/sitemap', "nuxt-gtag", 'nuxt-seo-utils', 'nuxt-site-config', '@nuxt/content', "@nuxthub/core", '@nuxtjs/robots'],
+  modules: ['@nuxtjs/sitemap', "nuxt-gtag","@nuxtjs/google-adsense", 'nuxt-seo-utils', 'nuxt-site-config', '@nuxt/content', "@nuxthub/core", '@nuxtjs/robots'],
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
@@ -15,6 +15,10 @@ export default defineNuxtConfig({
   },
   gtag: {
     id: "G-3ZKKED8546",
+  },
+  googleAdsense: {
+    id: 'ca-pub-4706745506007924',
+    pageLevelAds: true,
   },
   content: {
     database: {

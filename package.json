@@ -19,6 +19,7 @@
     "@nuxtjs/robots": "^5.2.10",
     "@nuxtjs/sitemap": "^7.2.10",
     "nuxt-gtag": "^3.0.2",
+    "@nuxtjs/google-adsense": "^3.0.0",
     "nprogress": "^0.2.0",
     "nuxt": "^3.17.1",
     "nuxt-seo-utils": "^7.0.12",
