@@ -207,6 +207,41 @@ h4,
 h5,
 h6 {
     margin-bottom: 20px;
+    position: relative;
+    color: var(--subColor);
+
+    &:before {
+        content: "【";
+        margin-right: 5px;
+        display: inline-block;
+        color: var(--subColor);
+    }
+
+    &:after {
+        content: "】";
+        margin-left: 5px;
+        display: inline-block;
+        color: var(--subColor);
+    }
+
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        &:active {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        &:visited {
+            color: inherit;
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
 
 .content p {
