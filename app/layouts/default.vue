@@ -6,6 +6,7 @@ const showBreadcrumb = computed(() => {
         route.path !== '/blogs/' &&
         !route.params.id
 })
+
 </script>
 
 <template>
@@ -22,7 +23,9 @@ const showBreadcrumb = computed(() => {
                 <!-- メインコンテンツエリア -->
                 <main class="contentArea">
                     <div class="section content">
-                        <slot />
+                        <div class="wMax1250">
+                            <slot />
+                        </div>
                     </div>
                     <div v-if="showBreadcrumb" class="section">
                         <!-- <TheBreadcrum /> -->
