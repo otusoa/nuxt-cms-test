@@ -12,7 +12,7 @@ const showBreadcrumb = computed(() => {
     <!-- app test -->
     <div>
         <div class="appContainer">
-            <!-- <TheProgressBar /> -->
+            <TheProgressBar />
             <!-- ヘッダー部分 -->
             <TheAppHeader />
 
