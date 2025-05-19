@@ -14,6 +14,23 @@ You can find an example of querying contents and rendering them in a [catch-all 
 
 Write Something
 
+```vue [test.vue]
+<template>
+  <div class="BlockSection">
+    <slot></slot>
+  </div>
+</template>
+
+<script setup lang="ts">
+</script>
+
+<style scoped>
+.BlockSection {
+	margin-bottom: 20px;
+}
+</style>
+```
+
 ::block-alert{is-warning color="blue"}
 test
 ::
