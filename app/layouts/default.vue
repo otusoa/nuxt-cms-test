@@ -30,9 +30,9 @@ const { isLoading } = useNProgressLoading() // 追加
                             <slot />
                         </div>
                     </div>
-                    <div v-if="showBreadcrumb" class="section">
-                        <!-- <TheBreadcrum /> -->
-                    </div>
+                    <!-- <div v-if="showBreadcrumb" class="section">
+                        <TheBreadcrum />
+                    </div> -->
                     <TheFooter />
                 </main>
             </div>
