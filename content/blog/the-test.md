@@ -1,6 +1,5 @@
 # TheTest page
 
-/
-
-::alert{color="blue"}
+::block-alert{isWarning color="red"}
+情報
 ::
