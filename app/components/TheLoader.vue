@@ -2,7 +2,8 @@
     <div class="loaderContainer" :class="{ 'loaderFullScreen': fullScreen }">
         <div class="loaderWrapper">
             <div class="spinnerContainer">
-                <div class="loader"></div>
+                <!-- <div class="loader"></div> -->
+                 <TheThinking />
             </div>
             <p class="loaderText" v-if="text">{{ text }}</p>
         </div>
