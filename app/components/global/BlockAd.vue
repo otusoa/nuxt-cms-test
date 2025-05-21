@@ -1,31 +1,11 @@
 <template>
-    <ClientOnly>
-        <div class="adContainer">
-            <p class="adLabel">広告</p>
-            <div class="adContent">
-                <ins
-                    class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-4706745506007924"
-                    data-ad-slot="4360082298"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"
-                ></ins>
-            </div>
+    <div class="adContainer">
+        <p class="adLabel">広告</p>
+        <div class="adContent">
+            <Adsbygoogle :ad-slot="'4360082298'" />
         </div>
-    </ClientOnly>
+    </div>
 </template>
-
-<script setup>
-// クライアント側でのみ実行されるようにする
-onMounted(() => {
-    try {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (error) {
-        console.error('AdSense error:', error);
-    }
-});
-</script>
 
 <style scoped>
 /* 広告コンテナのスタイル */
