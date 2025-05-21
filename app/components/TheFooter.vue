@@ -1,7 +1,9 @@
 <template>
     <footer>
         <div class="footerContent wMax1250 standardFontSize">
-            <span>©2025 PitaMai Technology</span>
+            <span>Code MIT License (<NuxtLink to="https://github.com/otusoa/nuxt-cms-test" target="_blank">Link: GitHub</NuxtLink>) ©2025 PitaMai Technology</span><br>
+            <br>
+            <span>Content ©2025 PitaMai Technology</span><br>
         </div>
         <div class="footerContent wMax1250 standardFontSize">
             <ul class="footerNav">
