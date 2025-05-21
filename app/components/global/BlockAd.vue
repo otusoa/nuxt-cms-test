@@ -2,7 +2,7 @@
     <div class="adContainer">
         <p class="adLabel">広告</p>
         <div class="adContent">
-            <Adsbygoogle :ad-slot="'4360082298'" />
+            <Adsbygoogle ad-slot="4360082298" />
         </div>
     </div>
 </template>
