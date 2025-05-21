@@ -35,7 +35,6 @@ export default defineNuxtConfig({
 
   googleAdsense: {
     id: 'ca-pub-4706745506007924',
-    pageLevelAds: true,
   },
 
   content: {
