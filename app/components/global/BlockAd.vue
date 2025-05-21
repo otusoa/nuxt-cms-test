@@ -13,10 +13,6 @@
                 ></ins>
             </div>
         </div>
-
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
     </ClientOnly>
 </template>
 
