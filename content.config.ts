@@ -13,7 +13,7 @@ export default defineContentConfig({
             alt: z.string()
           }),
           date: z.date(),
-          tag: z.array(z.string()),
+          tag: z.enum(['その他', 'Linux', 'Nuxt(Vue.js)']).optional(),
         }),
       }),
     ),
