@@ -1,8 +1,6 @@
 import { defineContentConfig, defineCollection, z } from '@nuxt/content'
 import { asSitemapCollection } from '@nuxtjs/sitemap/content'
 
-const tagOptions = ['その他', 'Linux', 'Nuxt(Vue.js)', 'マネジメント'] as const;
-
 export default defineContentConfig({
   collections: {
     content: defineCollection(
@@ -15,13 +13,15 @@ export default defineContentConfig({
             alt: z.string()
           }),
           date: z.date(),
-          tag: z.array(z.enum(tagOptions)),
+          tag: z.array(z.string()),
         }),
       }),
     ),
     blog: defineCollection(
       asSitemapCollection({
+        // Load every file inside the `content` directory
         source: 'blog/*.md',
+        // Specify the type of content in this collection
         type: 'page',
         schema: z.object({
           image: z.object({
@@ -29,7 +29,7 @@ export default defineContentConfig({
             alt: z.string()
           }),
           date: z.date(),
-          tag: z.array(z.enum(tagOptions)),
+          tag: z.enum(['その他', 'Linux', 'Nuxt(Vue.js)']).optional(),
         }),
       }),
     ),
