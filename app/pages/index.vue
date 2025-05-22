@@ -22,8 +22,8 @@ useSeoMeta({
                         <div class="articleTitle">{{ article.title }}</div>
                         <span class="articleDate">{{ parseDate(article.date) }}</span>
                         <div class="articleTags">
-                            <span v-for="tag in article.tag" :key="tag" class="articleTag">
-                                {{ tag }}
+                            <span class="articleTag">
+                                {{ article.tag }}
                             </span>
                         </div>
                     </div>
