@@ -14,40 +14,12 @@
 </template>
 
 <style scoped>
-/* 広告コンテナのスタイル */
-.adContainer {
-    margin: 30px 0;
-    padding: 20px;
-    background-color: var(--whiteColor100);
-    border-radius: 12px;
-    box-shadow: var(--standardShadow);
-    border-left: 4px solid var(--subColor);
-    position: relative;
-    max-width: 100%;
-    width: 100%;
-    min-height: 120px;
-}
-
-.adContainerBottom {
-    margin-top: 40px;
-    border-left: 4px solid var(--subColor);
-}
-
 .adLabel {
-    position: absolute;
-    top: -10px;
-    left: 10px;
     background-color: var(--subColor);
     color: var(--whiteColor100);
-    font-size: 12px;
-    padding: 2px 8px;
+    font-size: 16px;
+    padding: 3px 8px;
     border-radius: 4px;
     margin: 0;
-}
-
-.adContent {
-    width: 100%;
-    max-width: 100%;
-    min-height: 120px;
 }
 </style>
