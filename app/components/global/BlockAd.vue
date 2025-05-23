@@ -14,6 +14,9 @@
 </template>
 
 <style scoped>
+.adContainer{
+    margin: 40px 0 40px 0;
+}
 .adLabel {
     background-color: var(--subColor);
     color: var(--whiteColor100);
