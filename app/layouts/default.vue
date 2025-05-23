@@ -91,6 +91,10 @@ useHead({
     gap: 1.5rem;
 }
 
+.content{
+    min-height: 100dvh;
+}
+
 /* カード共通スタイル */
 .card {
     background-color: var(--whiteColor100, #ffffff);
