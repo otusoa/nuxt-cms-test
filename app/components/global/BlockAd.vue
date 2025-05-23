@@ -2,7 +2,12 @@
     <div class="adContainer">
         <p class="adLabel">広告</p>
         <div class="adContent">
-            <Adsbygoogle ad-slot="4360082298" />
+            <ScriptGoogleAdsense data-ad-client="ca-pub-4706745506007924" data-ad-slot="4360082298"
+                data-ad-format="auto">
+                <template #error>
+                    <p>おっと!広告の読み込みに失敗しました。</p>
+                </template>
+            </ScriptGoogleAdsense>
         </div>
     </div>
 </template>

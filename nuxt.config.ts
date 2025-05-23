@@ -2,9 +2,8 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/sitemap',
-    "nuxt-gtag",
-    "@nuxtjs/google-adsense",
     'nuxt-seo-utils',
+    '@nuxt/scripts',
     'nuxt-site-config',
     '@nuxt/content',
     "@nuxthub/core",
@@ -29,12 +28,16 @@ export default defineNuxtConfig({
     preset: 'cloudflare_pages',
   },
 
-  gtag: {
-    id: "G-3ZKKED8546",
-  },
-
-  googleAdsense: {
-    id: 'ca-pub-4706745506007924',
+  scripts: {
+    registry: {
+      googleAnalytics: {
+        id: 'G-3ZKKED8546',
+      },
+      googleAdsense: {
+        client: "ca-pub-4706745506007924", // Your Google AdSense Publisher ID
+        autoAds: true, // Enable Auto Ads
+      },
+    }
   },
 
   content: {
