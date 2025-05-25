@@ -31,7 +31,7 @@ Nuxt Content、Nuxt Studio、Nuxt Hubを使ってブログを構築してみま�
 
 だと思っています。
 
-::BlockAd
+::block-ad
 ::
 
 ### まだまだ成熟しきっていない頃のNuxt.js(v2)の情報が一人歩きしている。
