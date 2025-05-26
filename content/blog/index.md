@@ -47,7 +47,7 @@ Nuxt Content、Nuxt Studio、Nuxt Hubを使ってブログを構築してみま�
 - Nuxt用のヘッドレスCMSが提供しているSDKを使うも、SDKが放置されており、バージョンが古くうまく動作しない。
 - etc..
 
-::block-alert{}
+::block-alert
 別に日本のヘッドレスCMSが悪いとか非難しているわけではないよ！。あくまで個人ユーザーや小規模チームだと手が出づらいということ。
 ::
 
