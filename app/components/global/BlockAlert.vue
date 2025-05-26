@@ -1,21 +1,19 @@
 <template>
   <div :class="`alert alert-${color}`">
-    <div class="alertIcon">
-      <font-awesome-icon v-if="color === 'blue'" icon="fa-solid fa-circle-info" />
-      <font-awesome-icon v-else icon="fa-solid fa-triangle-exclamation" />
-    </div>
+    <div v-if="isWarning" class="warningIcon"><font-awesome-icon icon="fa-solid fa-triangle-exclamation" /></div>
     <slot></slot>
   </div>
 </template>
 
 <script setup lang="ts">
-const { color } = defineProps({
+const { color, isWarning } = defineProps({
   color: {
     type: String,
-    default: 'blue',
-    validator: (value: string) => {
-      return ['blue', 'orange', 'red'].includes(value)
-    }
+    default: 'blue'
+  },
+  isWarning: {
+    type: Boolean,
+    default: false
   }
 })
 </script>
@@ -29,10 +27,6 @@ const { color } = defineProps({
   padding: 12px;
   flex-direction: column;
   margin-bottom: 20px;
-}
-
-.alert>* {
-  margin: 0;
 }
 
 .alert-orange {
@@ -53,9 +47,7 @@ const { color } = defineProps({
   color: #0d47a1;
 }
 
-.alertIcon {
+.warningIcon {
   margin-right: 8px;
-  margin-bottom: 10px;
-  font-size: var(--largeFontSize);
 }
 </style>
