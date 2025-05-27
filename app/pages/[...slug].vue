@@ -35,6 +35,10 @@ const getTocItemClass = (depth: number) => {
 const { isLoading } = useNProgressLoading()
 
 useSeoMeta({
+    title: page.value.seo?.title,
+    description: page.value.seo?.description,
+    ogTitle: page.value.seo?.title,
+    ogDescription: page.value.seo?.description,
     ogImage: page.value?.image?.src ?? "https://org.pitahex.com/ogp.png",
 })
 </script>
