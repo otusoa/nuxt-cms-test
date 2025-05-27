@@ -36,9 +36,8 @@ onMounted(() => {
 <style>
 /* NProgressのカスタムスタイル */
 #nprogress .bar {
-    /* background-image: linear-gradient(90deg, var(--subColor) 40%, var(--mainColor) 60%); */
     background-color: var(--subColor);
-    height: 6px;
+    height: 3px;
     z-index: 1000; /* ヘッダーのz-indexよりも大きい値を設定 */
 }
 
@@ -46,5 +45,9 @@ onMounted(() => {
 #nprogress {
     z-index: 1000;
     position: relative;
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 0 0, 0 0 0px 0px;
 }
 </style>
