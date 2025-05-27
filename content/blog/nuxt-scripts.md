@@ -2,7 +2,11 @@
 title: 【Nuxt Scripts】NuxtでGA4やGoogleアドセンスを設定する簡単な方法
 tag: Nuxt(Vue.js)
 date: 2025-05-25T00:00:00.000Z
-description: NuxtでGA4やGoogleアドセンスを設定したい? Nuxt Scriptsを使おう!
+description: 【Nuxt Scripts】NuxtでGA4やGoogleアドセンスを設定する簡単な方法
+seo:
+  title: 【Nuxt Scripts】NuxtでGA4やGoogleアドセンスを設定する簡単な方法
+navigation:
+  title: 【Nuxt Scripts】NuxtでGA4やGoogleアドセンスを設定する簡単な方法
 ---
 
 # NuxtでGA4(Googleアナリティクス)やGoogleアドセンスを設定する簡単な方法(Nuxt Scripts)
