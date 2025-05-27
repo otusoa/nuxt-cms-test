@@ -7,18 +7,6 @@ const showBreadcrumb = computed(() => {
         !route.params.id
 })
 
-import { useNProgressLoading } from '~/composables/NprogressBar' // 追加
-const { isLoading } = useNProgressLoading() // 追加
-
-useHead({
-    link: [
-        { rel: "icon", href: "/favicon.png" },
-    ],
-    htmlAttrs: {
-        lang: 'ja'
-    },
-})
-
 </script>
 
 <template>
