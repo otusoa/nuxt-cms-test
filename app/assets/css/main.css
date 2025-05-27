@@ -171,6 +171,13 @@ ol li:last-child {
 	margin-bottom: 0;
 }
 
+iframe {
+	width: 100%;
+	/* 親要素に対して幅を100%に */
+	max-width: 560px;
+	/* 最大幅を設定 */
+}
+
 .inheritLink {
 	color: inherit;
 	text-decoration: none;
