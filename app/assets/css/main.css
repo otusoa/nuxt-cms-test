@@ -176,6 +176,7 @@ iframe {
 	/* 親要素に対して幅を100%に */
 	max-width: 560px;
 	/* 最大幅を設定 */
+	margin-bottom: 20px;
 }
 
 .inheritLink {
