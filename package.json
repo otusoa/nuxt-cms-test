@@ -2,7 +2,7 @@
   "name": "nuxt-content-starter",
   "private": true,
   "type": "module",
-  "packageManager": "npm@10.9.2",
+  "packageManager": "npm@11.4.1",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
